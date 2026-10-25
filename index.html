@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#087f8c">
+<title>Jejak Belajar IPA — Refleksi</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Nunito:wght@600;700;800;900&display=swap');
+:root{--ink:#18334a;--teal:#087f8c;--mint:#dff8f0;--muted:#647b88;--line:#dce9ec;--bg:#f3f9fb}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 5% 5%,#e1f8f3,transparent 28%),radial-gradient(circle at 95% 15%,#fff0cf,transparent 24%),var(--bg);font-family:'DM Sans',sans-serif;color:var(--ink);min-height:100vh}
+button,input,textarea{font:inherit}.topbar{max-width:1000px;margin:auto;padding:18px 20px;display:flex;align-items:center;gap:12px}.logo{width:46px;height:46px;border-radius:16px;display:grid;place-items:center;background:linear-gradient(135deg,#087f8c,#2bbca6);font-size:24px;color:white}.brand{font:900 15px Nunito,sans-serif}.sub{font-size:11px;color:var(--muted)}main{max-width:900px;margin:10px auto 45px;padding:0 18px}.hero{position:relative;overflow:hidden;background:linear-gradient(120deg,#087f8c,#2bbca6);color:white;padding:32px;border-radius:27px;box-shadow:0 18px 42px #087f8c25}.hero .pill{font-size:10px;letter-spacing:.12em;font-weight:900;background:#ffffff25;border:1px solid #ffffff55;border-radius:99px;padding:7px 11px;display:inline-block}.hero h1{font:900 clamp(29px,5vw,42px)/1.12 Nunito,sans-serif;margin:15px 0 10px}.hero p{max-width:620px;font-size:14px;line-height:1.7;color:#e8fffb;margin:0}.hero .art{position:absolute;right:32px;bottom:22px;font-size:65px}.progress{display:flex;gap:12px;align-items:center;margin:20px 4px 14px;font-size:11px;color:var(--muted);font-weight:800}.track{height:8px;background:#dfeaec;border-radius:99px;flex:1;overflow:hidden}.fill{height:100%;width:12.5%;background:linear-gradient(90deg,#087f8c,#48c9a8);transition:.2s}.card{background:#ffffffed;border:1px solid #e0ecee;border-radius:25px;padding:clamp(22px,4vw,36px);box-shadow:0 18px 55px #174a5d12}.step{display:none}.step.active{display:block}.kicker{font-size:10px;font-weight:900;letter-spacing:.12em;color:var(--teal)}h2{font:900 clamp(23px,3.5vw,30px)/1.2 Nunito,sans-serif;margin:9px 0}.help{font-size:13px;line-height:1.6;color:var(--muted);margin:0 0 22px}.emojis{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.emoji{border:2px solid #e3eeee;background:white;border-radius:17px;min-height:116px;padding:13px 5px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;color:var(--ink)}.emoji .face{font-size:34px}.emoji strong{font-size:11px}.emoji.selected{border-color:var(--teal);background:#e8faf5;box-shadow:0 0 0 4px #0f9d8a12}.label{display:block;font-size:13px;font-weight:800;margin:18px 0 8px}.text,textarea{width:100%;border:1.5px solid #d6e5e7;border-radius:13px;background:#fbfefe;padding:13px;color:var(--ink);outline:none}.text:focus,textarea:focus{border-color:var(--teal);box-shadow:0 0 0 4px #13a6a015}.options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.option{display:flex;align-items:flex-start;gap:10px;border:1.5px solid #e0ebed;border-radius:14px;padding:13px;background:white;cursor:pointer;font-size:12px;line-height:1.5}.option:has(input:checked){border-color:var(--teal);background:#e9faf5}.option input{accent-color:var(--teal);margin-top:4px}.nav{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:26px;padding-top:20px;border-top:1px solid #e9f0f1}.btn{border:0;border-radius:13px;padding:12px 18px;font-weight:900;font-size:12px}.primary{background:linear-gradient(110deg,#087f8c,#0da89e);color:white}.secondary{background:#eef5f6;color:#49636e}.message{font-size:12px;color:#087f8c;margin-top:12px}.message.error{color:#b42318}.review{background:#f4fbfa;border-radius:15px;padding:14px 18px;margin:18px 0}.review div{padding:8px 0;border-bottom:1px solid #e1efed;font-size:12px}.review div:last-child{border:0}.review b{display:block;color:#087f8c;font-size:10px;margin-bottom:4px}.footer{text-align:center;color:#80949b;font-size:11px;padding:22px 0}.hidden{display:none!important}
+@media(max-width:620px){.topbar{padding:14px}.hero{padding:25px 22px}.hero .art{font-size:42px;right:17px;bottom:15px;opacity:.8}.hero p{max-width:85%;font-size:12px}.card{padding:22px 16px}.emojis{grid-template-columns:repeat(3,1fr)}.emoji{min-height:100px}.options{grid-template-columns:1fr}.nav{flex-wrap:wrap}.nav .hint{order:3;width:100%;text-align:center}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="logo">⚡</div><div><div class="brand">JEJAK BELAJAR IPA</div><div class="sub">Ruang refleksi pembelajaran</div></div></header>
+<main>
+  <section class="hero"><span class="pill">🔬 REFLEKSI AKHIR PEMBELAJARAN</span><h1>Setiap perasaan,<br>setiap ide itu berarti!</h1><p>Ceritakan pengalaman belajarmu tentang <b>benda bermuatan listrik</b>. Jawabanmu membantu guru merancang pembelajaran IPA yang lebih seru dan mudah dipahami.</p><div class="art">🧪</div></section>
+  <div class="progress"><span id="stepLabel">Langkah 1 dari 8</span><div class="track"><div class="fill" id="progressFill"></div></div><span id="percent">13%</span></div>
+  <form class="card" id="reflectionForm">
+    <section class="step active" data-step="0"><div class="kicker">01 • KENALI PERASAANMU</div><h2>Bagaimana perasaanmu setelah pembelajaran hari ini?</h2><p class="help">Pilih emoji yang paling menggambarkan perasaanmu. Semua perasaan boleh diceritakan 😊</p>
+      <div class="emojis" id="moods">
+        <button type="button" class="emoji" data-value="Bersemangat"><span class="face">🤩</span><strong>Bersemangat</strong></button>
+        <button type="button" class="emoji" data-value="Senang"><span class="face">😊</span><strong>Senang</strong></button>
+        <button type="button" class="emoji" data-value="Penasaran"><span class="face">🤔</span><strong>Penasaran</strong></button>
+        <button type="button" class="emoji" data-value="Biasa saja"><span class="face">😐</span><strong>Biasa saja</strong></button>
+        <button type="button" class="emoji" data-value="Bingung"><span class="face">😕</span><strong>Bingung</strong></button>
+      </div>
+      <label class="label" for="studentCode">Nama panggilan atau kode murid (opsional)</label><input class="text" id="studentCode" maxlength="40" placeholder="Contoh: A-01">
+    </section>
+    <section class="step" data-step="1"><div class="kicker">02 • PENGETAHUAN BARU</div><h2>Apa pengetahuan baru yang kamu dapat setelah pembelajaran?</h2><p class="help">Ceritakan dengan bahasamu sendiri. Tuliskan satu ide yang paling kamu ingat.</p><label class="label" for="newKnowledge">Pengetahuan baruku hari ini</label><textarea id="newKnowledge" rows="5" maxlength="700" required placeholder="Hari ini saya belajar bahwa benda dapat menjadi bermuatan ketika..."></textarea></section>
+    <section class="step" data-step="2"><div class="kicker">03 • BAGIAN YANG MEMBINGUNGKAN</div><h2>Bagian materi mana yang masih membuatmu bingung?</h2><p class="help">Pilih bagian yang ingin kamu pahami lagi.</p><div class="options">
+      <label class="option"><input type="radio" name="confusing" value="Muatan positif dan negatif">Perbedaan muatan positif dan negatif</label>
+      <label class="option"><input type="radio" name="confusing" value="Perpindahan elektron">Bagaimana elektron berpindah</label>
+      <label class="option"><input type="radio" name="confusing" value="Gaya tarik dan tolak">Mengapa muatan tarik-menarik atau tolak-menolak</label>
+      <label class="option"><input type="radio" name="confusing" value="Contoh sehari-hari">Contoh benda bermuatan dalam kehidupan sehari-hari</label>
+      <label class="option"><input type="radio" name="confusing" value="Tidak ada">Tidak ada, saya sudah cukup paham</label>
+      <label class="option"><input type="radio" name="confusing" value="Bagian lainnya">Bagian lainnya</label>
+    </div><label class="label" for="confusingDetail">Ceritakan lebih lanjut (opsional)</label><textarea id="confusingDetail" rows="3" maxlength="500" placeholder="Saya masih bingung tentang..."></textarea></section>
+    <section class="step" data-step="3"><div class="kicker">04 • BAGIAN PALING DISUKAI</div><h2>Bagian pembelajaran mana yang paling kamu sukai hari ini?</h2><p class="help">Pilih kegiatan atau momen yang paling menarik bagimu.</p><div class="options">
+      <label class="option"><input type="radio" name="liked" value="Percobaan atau demonstrasi">🧪 Percobaan atau demonstrasi</label>
+      <label class="option"><input type="radio" name="liked" value="Penjelasan dan gambar guru">🧑‍🏫 Penjelasan dan gambar guru</label>
+      <label class="option"><input type="radio" name="liked" value="Diskusi dengan teman">🗣️ Diskusi dengan teman</label>
+      <label class="option"><input type="radio" name="liked" value="Permainan atau kuis">🎮 Permainan atau kuis</label>
+      <label class="option"><input type="radio" name="liked" value="Contoh sehari-hari">🏠 Contoh kehidupan sehari-hari</label>
+      <label class="option"><input type="radio" name="liked" value="Lainnya">💡 Lainnya</label>
+    </div></section>
+    <section class="step" data-step="4"><div class="kicker">05 • KEGIATAN YANG MEMBANTU</div><h2>Kegiatan apa yang paling membantumu memahami materi hari ini?</h2><p class="help">Pilih kegiatan yang paling membantumu memahami materi.</p><div class="options">
+      <label class="option"><input type="radio" name="helpfulActivity" value="Demonstrasi atau eksperimen">🔬 Demonstrasi atau eksperimen</label>
+      <label class="option"><input type="radio" name="helpfulActivity" value="Gambar atau video">🎬 Gambar atau video</label>
+      <label class="option"><input type="radio" name="helpfulActivity" value="Penjelasan guru">👂 Mendengarkan penjelasan guru</label>
+      <label class="option"><input type="radio" name="helpfulActivity" value="Diskusi kelompok">👥 Diskusi kelompok</label>
+      <label class="option"><input type="radio" name="helpfulActivity" value="Kuis atau latihan">🧩 Kuis atau latihan</label>
+      <label class="option"><input type="radio" name="helpfulActivity" value="Membaca materi">📖 Membaca materi</label>
+    </div></section>
+    <section class="step" data-step="5"><div class="kicker">06 • PILIHAN PEMBELAJARAN BERIKUTNYA</div><h2>Jika materi berikutnya dipelajari dengan cara tertentu, mana yang paling kamu sukai?</h2><p class="help">Pilih satu cara belajar yang paling ingin kamu coba.</p><div class="options">
+      <label class="option"><input type="radio" name="preferredFormat" value="Video">🎥 Video</label>
+      <label class="option"><input type="radio" name="preferredFormat" value="Permainan">🎲 Permainan</label>
+      <label class="option"><input type="radio" name="preferredFormat" value="Eksperimen">🧪 Eksperimen</label>
+      <label class="option"><input type="radio" name="preferredFormat" value="Diskusi kelompok">💬 Diskusi kelompok</label>
+      <label class="option"><input type="radio" name="preferredFormat" value="Bacaan">📚 Bacaan</label>
+    </div></section>
+    <section class="step" data-step="6"><div class="kicker">07 • TANTANGAN BELAJAR</div><h2>Apa yang membuatmu kesulitan mengikuti pembelajaran hari ini?</h2><p class="help">Pilih yang paling sesuai dengan pengalamanmu.</p><div class="options">
+      <label class="option"><input type="radio" name="difficulties" value="Materi terasa sulit">🧠 Materi terasa sulit</label>
+      <label class="option"><input type="radio" name="difficulties" value="Penjelasan terlalu cepat">⏩ Penjelasan terlalu cepat</label>
+      <label class="option"><input type="radio" name="difficulties" value="Kurang berani bertanya">🙋 Kurang berani bertanya</label>
+      <label class="option"><input type="radio" name="difficulties" value="Sulit berkonsentrasi">🌪️ Sulit berkonsentrasi</label>
+      <label class="option"><input type="radio" name="difficulties" value="Kendala alat atau teknis">📱 Kendala alat atau teknis</label>
+      <label class="option"><input type="radio" name="difficulties" value="Tidak ada kesulitan berarti">🌈 Tidak ada kesulitan berarti</label>
+      <label class="option"><input type="radio" name="difficulties" value="Lainnya">✍️ Lainnya</label>
+    </div><label class="label" for="difficultyDetail">Ceritakan lebih lanjut (opsional)</label><textarea id="difficultyDetail" rows="3" maxlength="500" placeholder="Hari ini saya kesulitan karena..."></textarea></section>
+    <section class="step" data-step="7"><div class="kicker">08 • PESAN UNTUK GURU</div><h2>Apa satu hal yang sebaiknya guru pertahankan atau perbaiki pada pembelajaran berikutnya?</h2><p class="help">Sampaikan saran dengan sopan dan jujur. Masukanmu membantu pembelajaran IPA menjadi lebih baik.</p><label class="label" for="teacherFeedback">Satu hal yang ingin kusampaikan</label><textarea id="teacherFeedback" rows="5" maxlength="700" required placeholder="Menurut saya, pada pembelajaran berikutnya guru sebaiknya..."></textarea></section>
+    <section class="step" data-step="8"><div style="font-size:55px;text-align:center">🎉</div><h2 style="text-align:center">Terima kasih sudah refleksi!</h2><p class="help" style="text-align:center">Periksa ringkasan jawabanmu sebelum mengirim.</p><div class="review" id="review"></div></section>
+    <div class="nav"><button type="button" class="btn secondary" id="prev" disabled>← Kembali</button><span class="sub" id="navHint">Pilih emoji untuk memulai</span><button type="button" class="btn primary" id="next">Lanjutkan →</button><button type="submit" class="btn primary hidden" id="send">Kirim refleksi ✨</button></div>
+    <p id="message" class="message" role="status"></p>
+  </form>
+  <div class="footer">🌱 Belajar, bertanya, dan bertumbuh bersama.</div>
+</main>
+<script>
+/*
+PENTING: Ganti URL_APPS_SCRIPT_DI_SINI dengan URL Web App dari Google Apps Script.
+Lihat petunjuk SETUP_SPREADSHEET.txt dalam paket.
+*/
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxmZ20r8puqXLKjLLpMaBxzOWsmRMYAV_OAcNqprcfsH1qNL1IsD5gmaSDpixsXPz-NEA/exec";
+const $ = id => document.getElementById(id);
+const steps = [...document.querySelectorAll(".step")];
+let current = 0, mood = "";
+function getRadio(name){return document.querySelector(`[name="${name}"]:checked`)?.value || "";}
+function getVal(id){return $(id).value.trim();}
+function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+function update(){
+ steps.forEach((s,i)=>s.classList.toggle("active",i===current));
+ $("stepLabel").textContent=current===8?"Siap dikirim":`Langkah ${current+1} dari 8`;
+ const pct=Math.round((current+1)/steps.length*100);$("progressFill").style.width=pct+"%";$("percent").textContent=pct+"%";
+ $("prev").disabled=current===0;$("next").classList.toggle("hidden",current===8);$("send").classList.toggle("hidden",current!==8);
+ $("navHint").textContent=current===0?"Pilih emoji untuk memulai":current===8?"Pastikan jawabanmu sudah benar":"Jawab dengan jujur, ya!";
+ $("message").textContent="";
+ if(current===8)buildReview();
+}
+$("moods").addEventListener("click",e=>{const b=e.target.closest("[data-value]");if(!b)return;mood=b.dataset.value;document.querySelectorAll(".emoji").forEach(x=>x.classList.toggle("selected",x===b));});
+function valid(){
+ if(current===0&&!mood){$("message").textContent="Pilih emoji perasaanmu terlebih dahulu.";return false;}
+ if(current===1&&!getVal("newKnowledge")){$("message").textContent="Tuliskan pengetahuan baru yang kamu dapat.";return false;}
+ if(current===7&&!getVal("teacherFeedback")){$("message").textContent="Tuliskan satu saran untuk guru.";return false;}
+ return true;
+}
+$("next").addEventListener("click",()=>{if(!valid())return;current=Math.min(8,current+1);update();window.scrollTo({top:0,behavior:"smooth"});});
+$("prev").addEventListener("click",()=>{current=Math.max(0,current-1);update();window.scrollTo({top:0,behavior:"smooth"});});
+function buildReview(){
+ const rows=[["Perasaan",mood],["Pengetahuan baru",getVal("newKnowledge")],["Materi yang membingungkan",getRadio("confusing")],["Bagian paling disukai",getRadio("liked")],["Kegiatan yang membantu",getRadio("helpfulActivity")],["Pilihan pembelajaran berikutnya",getRadio("preferredFormat")],["Kesulitan",getRadio("difficulties")],["Masukan untuk guru",getVal("teacherFeedback")]];
+ $("review").innerHTML=rows.map(([k,v])=>`<div><b>${esc(k)}</b>${esc(v||"Belum diisi")}</div>`).join("");
+}
+$("reflectionForm").addEventListener("submit",async e=>{
+ e.preventDefault();if(current!==8)return;
+ if(SCRIPT_URL==="URL_APPS_SCRIPT_DI_SINI"){$("message").className="message error";$("message").textContent="Website belum dihubungkan ke Google Sheets. Ikuti petunjuk SETUP_SPREADSHEET.txt, lalu masukkan URL Apps Script.";return;}
+ const payload={
+  studentCode:getVal("studentCode"),mood,newKnowledge:getVal("newKnowledge"),
+  confusing:getRadio("confusing"),confusingDetail:getVal("confusingDetail"),
+  liked:getRadio("liked"),helpfulActivity:getRadio("helpfulActivity"),
+  preferredFormat:getRadio("preferredFormat"),difficulties:getRadio("difficulties"),
+  difficultyDetail:getVal("difficultyDetail"),teacherFeedback:getVal("teacherFeedback"),
+  submittedAt:new Date().toISOString()
+ };
+ $("send").disabled=true;$("send").textContent="Mengirim...";
+ try{
+   // no-cors digunakan agar halaman statis GitHub Pages bisa mengirim ke Apps Script.
+   await fetch(SCRIPT_URL,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify(payload)});
+   $("message").className="message";$("message").textContent="Permintaan pengiriman sudah dikirim. Periksa Google Sheets untuk memastikan respons masuk.";
+   $("send").textContent="Terkirim ✓";
+ }catch(err){console.error(err);$("message").className="message error";$("message").textContent="Pengiriman gagal. Periksa koneksi dan URL Apps Script.";$("send").disabled=false;$("send").textContent="Kirim refleksi ✨";}
+});
+update();
+</script>
+</body>
+</html>
